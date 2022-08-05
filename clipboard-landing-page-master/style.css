@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.5;
+  color: hsl(201, 11%, 66%);
+  font-size: 1.8rem;
+}
+
+.container {
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1.2rem 4.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/**************************************/
+/* SECTION HEADER */
+/**************************************/
+
+.section-header {
+  padding-top: 16rem;
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.section-header img {
+  margin-bottom: 4.8rem;
+}
+
+.heading-primary {
+  font-size: 4.3rem;
+  margin-bottom: 1.6rem;
+  color: #4c545d;
+}
+
+.header-text {
+  margin-bottom: 6.4rem;
+  padding: 1.8rem;
+}
+
+.btn-ios {
+  background-color: #26baa4;
+  box-shadow: 0 1px 7px rgba(19, 93, 82, 0.7);
+  margin-right: 1.6rem;
+}
+
+.btn-ios:hover {
+  background-color: #3cc1ad;
+}
+
+.btn-mac {
+  background-color: #6173ff;
+  box-shadow: 0 1px 7px rgba(97, 115, 255, 0.7);
+}
+
+.btn-mac:hover {
+  background-color: #7181ff;
+}
+
+/**************************************/
+/* SECTION FEATURE */
+/**************************************/
+
+.feature-intro {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  margin-bottom: 2.2rem;
+  color: #4c545d;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+  transform: translateX(-3.2rem);
+  margin-right: 28rem;
+  margin-bottom: 9.6rem;
+}
+
+.feature-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+}
+
+.heading-tertiary {
+  color: #4c545d;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.img-box {
+  display: flex;
+  place-content: center;
+}
+
+/**************************************/
+/* SECTION CARDS */
+/**************************************/
+.section-cards {
+  margin-bottom: 12.8rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 8rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  width: 40rem;
+}
+
+.card img {
+  height: 4rem;
+}
+
+/**************************************/
+/* SECTION CLIENTS */
+/**************************************/
+
+.section-clients {
+  margin-bottom: 9.6rem;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+  list-style: none;
+}
+
+.section-app {
+  text-align: center;
+}
+
+/**************************************/
+/* SECTION APP */
+/**************************************/
+
+.section-app {
+  margin-bottom: 12.8rem;
+}
+
+.app p {
+  margin-bottom: 4.8rem;
+}
+
+/**************************************/
+/* FOOTER */
+/**************************************/
+
+footer {
+  padding: 3.2rem;
+  background-color: #eceef0;
+  font-size: 1.6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer img {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.help-box {
+  display: flex;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.help {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4.8rem;
+  row-gap: 1.6rem;
+}
+
+.help-item:hover {
+  cursor: pointer;
+  color: #26baa4;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icon {
+  color: #505659;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  color: #26baa4;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a:link,
+.attribution a:visited {
+  color: #111;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+  font-size: 1.4rem;
+}
+
+.attribution a:hover,
+.attribution a:active {
+  border-bottom: 1px solid transparent;
+}
